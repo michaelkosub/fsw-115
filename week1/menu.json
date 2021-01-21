@@ -1,0 +1,67 @@
+{
+	"appetizers": [
+		{
+			"name": "Fried Pickles",
+			"ingredients": ["Garlic Powder", "flour", "Egg", "Cooking Oil", "Black Pepper", "Sal"],
+			"description": "The Best Homemade Fried Pickles you will ever have."
+		},
+		{
+			"name": "Soft Pretzel Bites",
+			"ingredients": ["Egg", "Yeast", "Flour", "Baking soda", "Sea salt", "Butter", "Water", "Milk"],
+			"description": "Great Soft Pretzels. "
+		}
+	]
+	,	
+	"coldSandwiches": [
+		{
+			"name": "Cold Cut Club",
+			"ingredients": ["Pepper jack cheese", "Wheat bread", "Spinach", "Onion", "Pickles", "Ham", "Salami", "Pepperoni"],
+			"description": "This is a great choice for a sandwich. "
+		}, 
+		{
+			"name": "BMT",
+			"ingredients": ["Wheat bread", "Lettuce", "Tomato", "Bacon", "Mayo"],
+			"description": "This is a great old fashion BMT sandwich. "
+		}
+	]
+	,	
+	"hotSandwiches": [
+		{
+			"name": "Grilled Cheese",
+			"ingredients": ["Sharp chedder", "Wheat bread", "Butter"],
+			"description": "This is a classic grilled cheese sandwich."
+		}, 
+		{
+			"name": "Ham and Cheese",
+			"ingredients": [ "White bread", "Butter", "Smoked gouda cheese", "Ham"],
+			"description": "A nice light hot sandwich."
+		}
+	]
+	,
+	"desserts": [
+			{
+			"name": "Fruit Cup",
+			"ingredients": ["Strawberry", "Kiwi", "Grapes", "Blueberry", "Blackberry", "Plum"],
+			"description": "This is a great healthy way to start the morning. "
+			}, 
+			{
+			"name": "Ice Cream",
+			"ingredients": ["Whipping cream", "Sugar", "Vanilla"],
+			"description": "Homemade icecream."
+		}
+	]
+	,
+	"drinks": [
+		{
+			"name": "Iced Tea",
+			"ingredients": ["tea bags", "water", "suger"],
+			"description": "Have a nice cold glass of Ice tea."
+		}, 
+		{
+			"name": "Coffee",
+			"ingredients": ["Coffee grounds", "Water", "Vanilla creamer"],
+			"description": "Have a nice hot glass of coffee. "
+		}
+	]
+
+}
