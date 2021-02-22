@@ -1,4 +1,4 @@
-function blah(e) {
+function todo(e) {
     const x = document.getElementsByClassName("checkbox")
     for (i = 0; i < x.length; i++) {
         if (x[i].type === "checkbox") {
@@ -46,7 +46,7 @@ function listData(data) {
         const checkbox = document.createElement("input")
         checkbox.type = "checkbox"
         checkbox.classList.add("checkbox")
-        checkbox.onchange = blah
+        checkbox.onchange = todo
         h3.appendChild(checkbox)
 
         const button = document.createElement("button")
