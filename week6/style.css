@@ -1,0 +1,84 @@
+body {
+    background-image: url("https://i.redd.it/fjsz8h2q8yv41.jpg");
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Merienda One;
+}
+#header {
+    font-size: 48px;
+    border: 1px solid;
+    text-align: center;
+    color: rgb(252, 249, 249);
+    background-color: rgba(255, 7, 7, 0.418);
+}
+
+
+#listData {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.item {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-shadow: rgb(8, 7, 7) 2px 2px 2px;
+}
+.name {
+    text-decoration: underline;
+    font-size: 34px;
+    border: 2px solid;
+    border-radius: 10px;
+    grid-column: 1/4;
+    text-align: center;
+    color: rgb(16, 243, 65);
+    background-color: rgba(218, 165, 32, 0.267);
+}
+.filmsList {
+    text-decoration: underline;
+    border: 1px solid;
+    text-align: center;
+    font-size: 26px;
+    list-style-type: none;
+    color: rgb(248, 248, 250);
+    background-color: rgba(3, 3, 248, 0.486)
+}
+.films {
+    list-style-type: disc;
+    text-align: left;
+    color: rgb(251, 254, 255);
+    font-size: 14px;
+}
+.vehiclesList {
+    text-decoration: underline;
+    background-color: rgba(0, 128, 0, 0.287);
+    border: 1px solid;
+    text-align: center;
+    grid-column: 2/3;
+    list-style-type: none;
+    color: rgb(246, 248, 246);
+    font-size: 26px;
+}
+.vehicles {
+    list-style-type: disc;
+    text-align: left;
+    color: rgb(157, 252, 16);
+    font-size: 14px;
+}
+.starshipsList {
+    text-decoration: underline;
+    background-color: rgba(255, 0, 0, 0.39);
+    border: 1px solid;
+    text-align: center;
+    grid-column: 3/4;
+    list-style-type: none;
+    color: rgb(255, 254, 254);
+    font-size: 26px;
+}
+.starships {
+    list-style-type: disc;
+    text-align: left;
+    color: rgb(248, 247, 245);
+    font-size: 14px;
+}
