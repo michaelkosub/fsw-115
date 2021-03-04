@@ -1,0 +1,117 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xlYW5pbmd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    font-family: "50 blizzards";
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.editForm {
+    display: none
+}
+
+
+#header {
+    font-size: 48px;
+}
+
+
+
+#header {
+    text-align: justify;
+    font-weight: bold;
+    color: rgb(253, 5, 5);
+}
+
+#formGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#form {
+    background-color: rgb(12, 8, 6);
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(255, 5, 5);
+    box-shadow: black 5px 5px 10px;
+}
+
+#formDesc {
+    padding: 20px;
+    text-decoration: underline;
+    font-family: "50 blizzards";
+    grid-column: 1/4;
+}
+
+
+
+#title {
+    background-color: beige;
+}
+
+#dollars {
+    background-color: beige;
+}
+
+#description {
+    background-color: beige;
+}
+
+#request {
+    border: 5px rgb(252, 4, 4) outset;
+    background-color: rgb(253, 1, 1);
+}
+
+#olInfo {
+    grid-column: 1/4;
+    font-family: "50 blizzards";
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.jobItem {
+    grid-column: 2/3;
+    text-align: justify;
+    display: grid;
+    grid-template-rows: auto;
+    border: 5px lightblue outset;
+    text-shadow: black 2px 2px 3px;
+    background-color: rgba(173, 216, 230, 0.198);
+}
+
+.jobInfo {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 0;
+}
+
+.estimated {
+    margin: 0px;
+}
+
+.jobDesc {
+    margin: 0;
+}
+
+.jobCost {
+    margin: 0;
+}
+
+.worker {
+    margin: 0;
+}
+
+.planet {
+    margin: 0;
+}
